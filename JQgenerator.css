@@ -1,0 +1,34 @@
+#main {
+	padding: 5px;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+#textboxForm {
+	margin: 5px 120px;
+}
+
+#tableStylingForm {
+	display: none;
+	margin: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px 101.5px;
+}
+
+.shadeRows tr:nth-child(even) {
+	background-color: #DDD;
+}
+
+.darkenLines tr:nth-child(10n) {
+	border-bottom: 5px solid black;
+}
+
